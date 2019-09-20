@@ -158,9 +158,13 @@ Your tests should all still pass at this point.
 ## Written Questions
 
 1. If a book is an object, what is its encapsulated data?
+Its encapsulated data is title, author and quantity, as well as its functions (addStock and removeStock).
 
 2. Why do we create a new Book for every single test in `Book.test.js`?
+Because the functions are defined within the class, so we need a new instance of the class for the method to work.
 
 3. What data, of a book's encapsulated data, is changeable?
+Only quantity.
 
 4. Why is representing a book as an object a better idea than representing it as a string?
+Because then a programme can interact with each bit of data separately.
